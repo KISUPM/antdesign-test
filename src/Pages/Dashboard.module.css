@@ -1,0 +1,17 @@
+.mainBox {
+    overflow: auto;
+}
+
+.mainBox::-webkit-scrollbar {
+    /* position: fixed; */
+    width: 5px;
+    height: 5px;
+}
+
+.mainBox::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.mainBox::-webkit-scrollbar-track {
+    background: #aaa;
+}
